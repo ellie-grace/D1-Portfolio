@@ -71,6 +71,7 @@ h1 {
 	color: white;
 }
 h2 {
+	font-weight: 500;
 	color: white;
 	font-size: 16px;
 }
@@ -78,9 +79,11 @@ h2 {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	
 }
 .head-image ul li {
 	margin: 0 15px;
+
 }
 .head-image ul li:nth-of-type(1){
 	list-style: none;
@@ -138,8 +141,43 @@ h2 {
 	width: 15vw;
 }
 .about-right {
-	color: #8A98A2;
+	color: #1D2935;
+	background: #C9D5DE;
 	height: 90vh;
 	-ms-flex-preferred-size: 63vw;
 	    flex-basis: 63vw;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	        -webkit-box-pack: center;
+	            -ms-flex-pack: center;
+	                justify-content: center;
+}
+.about-right p {
+	width: 80%;
+	text-align: justify;
+}
+
+.about-right ul {
+	width: 80%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.about-right ul li {
+	list-style: none;
+
+}
+.about-right i {
+	font-size: 30px;
 }
