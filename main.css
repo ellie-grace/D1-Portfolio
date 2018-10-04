@@ -71,6 +71,7 @@ h1 {
 	color: white;
 }
 h2 {
+
 	font-weight: 500;
 	color: white;
 	font-size: 16px;
@@ -180,4 +181,141 @@ h2 {
 }
 .about-right i {
 	font-size: 30px;
+}
+
+.work {
+	color: white;
+	margin-top: 3vh;
+	background: #41586F;
+	height: 90vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;        
+}
+.work p {
+	width: 80%;
+}
+
+.work-examples {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+}
+
+.example {
+	-ms-flex-preferred-size: 20vw;
+	    flex-basis: 20vw;
+	height: 60vh;
+	color: #1D2935;
+	background: #C9D5DE;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-ms-flex-line-pack: center;
+	    align-content: center;
+	    -webkit-box-align: center;
+	        -ms-flex-align: center;
+	            align-items: center;
+	            -ms-flex-pack: distribute;
+	                justify-content: space-around;
+}
+
+.example img {
+	margin-top: 3vh;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.example p {
+	margin-top: -3vh;
+	height: 220px;
+}
+h6 {
+	font-size: 16px;
+}
+
+.picture {
+	margin-top: 3vh;
+	height: 50vh;
+background: -webkit-gradient(linear,left top, left bottom,from(rgba(65,88,111, 0.5)),to(rgba(65,88,111, 0.5))), url(bg2.JPG) no-repeat center center fixed;
+background: linear-gradient(rgba(65,88,111, 0.5),rgba(65,88,111, 0.5)), url(bg2.JPG) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.contact {
+	height: 40vh;
+	color: #1D2935;
+	background: #C9D5DE;
+margin-top: 3vh;
+display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;  
+	        -ms-flex-line-pack: center;  
+	            align-content: center;      
+	            -webkit-box-pack: center;      
+	                -ms-flex-pack: center;      
+	                    justify-content: center;
+}
+
+.contact p {
+	width: 80%;
+	text-align: justify;
+}
+.contact ul li {
+	list-style: none;
+
+}
+.contact ul {
+	width: 60%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+
+}
+
+.contact i {
+	font-size: 40px;
+}
+nav {
+	color: white;
+	margin-top: 3vh;
+	background: #41586F;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
 }
